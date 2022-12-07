@@ -1,0 +1,9 @@
+{
+    "python.autoComplete.extraPaths": [
+        "./Python"
+    ],
+    "git.ignoreLimitWarning": true,
+    "python.analysis.extraPaths": [
+        "./Python"
+    ],
+}
