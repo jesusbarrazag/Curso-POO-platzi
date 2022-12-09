@@ -8,7 +8,7 @@ class Car{
 
     }
 
-    printDatacar() {
+    printDataCar() {
     console.log(this.driver)
     console.log(this.driver.name)
     console.log(this.driver.document)
