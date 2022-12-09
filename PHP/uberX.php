@@ -10,15 +10,19 @@ class UberX extends Car {
         $this->model = $model;
     }
 
-    public function printDataUberX(){
-        echo "<br/>";
-        echo "<br/> UberX";
-        echo "<br/> License:" .$this->license;
-        echo "<br/> Brand: " .$this->brand;
-        echo "<br/> Model: ".$this->model;
-        echo "<br/> Driver: ". $this->driver->name;
+    public function setPassenger($passenger) {
+        
+        if ($passenger == 4) {
+            $this->passenger = $passenger;
+        }
+        else {
+            echo "<br/>";
+            echo "<br/> Necesitas asignar 4 pasajeros";
+        }
+    
     }
 
+      
 
 }
 ?>
